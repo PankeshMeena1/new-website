@@ -1,0 +1,283 @@
+.body12{
+    margin: 0px;
+    padding: 0px;
+}
+.star{
+ border-bottom: 1px solid black;
+  height: 65px;
+}
+
+.bnb1 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.bnblogo {
+    width: 180px;
+    height: 50px;
+}
+
+.bnblogo img {
+    width: 130px;
+}
+
+.bnbcenter {
+    display: flex;
+    border: 1px solid black;
+    width: 340px;
+    margin: 10px;
+    /* height: 40px; */
+    border-radius: 75px;
+   margin-top: 7px;
+   margin-left: 100px;
+   padding: 5px;
+}
+
+.bnbcenter p {
+    color: black;
+    /* margin-left: 20px; */
+    border-right: 1px solid rgba(128, 125, 125, 0.329);
+    /* padding: 10px; */
+    padding-right: 5px;
+    margin: 5px 5px 8px 10px ;
+    font-size: 18px;
+}
+
+#srchbnb img {
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+
+}
+.bnbint12{
+    display: flex;
+    /* margin-right: 30px; */
+    margin: 5px 5px 4px 5px;
+    margin-top: 0px;
+    width: 280px;
+    height: 50px;
+     /* margin-top: 5px; */
+} 
+
+.bnbint {
+    display: flex;
+   
+}
+.bnbint p{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.bnbint img{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.bnbpro{
+    display: flex;
+    border: 1px solid rgba(126, 122, 122, 0.589);
+    border-radius: 75px;
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.bnbpro i{
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 2px;
+    color: black;
+}
+.star1{
+   
+    display: flex;
+    width: 1150px;
+    height: 80px;
+    overflow: scroll;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-decoration: underline none;
+}
+.star1::-webkit-scrollbar{
+    display: none;
+}
+.filter{
+    border: 2px solid rgba(88, 86, 86, 0.637);
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.star2{
+    display: flex;
+    border: 2px solid rgba(66, 65, 65, 0.438);
+    border-radius: 75px;
+    width: 350px;
+    margin-left: 500px;
+}
+.star2 div{
+    display: flex;
+}
+.star2 div p{
+    padding: 5px;
+    font-size: 17px;
+}
+.star3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between ;
+     padding-top: 10px;
+    /* padding-left: px; */
+    margin-top: 20px;
+}
+.star3 div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+     margin-top: 20px;
+    /* margin-left: 1px; */ 
+}
+#fa{
+    font-size: 30px;
+    position: relative;
+    top: -260px;
+    left: 270px;
+    color: black;
+}
+#fa:hover{
+    cursor: pointer;
+}
+.star3 div div{
+    margin-left: 35px;
+}
+.division{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    display: none;
+    z-index: 1000;
+}
+.division a{
+    display: flex;
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+ 
+   
+}
+.division a div{
+    margin-left: 150px;
+    font-size: 20px;
+    
+}
+.mahi23{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#mahi04:checked~.division{
+    display: block;
+}
+.mc21{
+    text-align: center;
+   margin-top: 100px;
+    height: 150px;
+}
+.mc21 div{
+    font-size: 25px;
+    font-weight: 800;
+}
+.mc21 a{
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+.mc21 a div{
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 15px;
+
+    margin-top: 30px;
+    color: white;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding: 20px;
+}
+.fullfooter{
+    background-color: rgba(0, 0, 0, 0.063);
+}
+.foot{
+    padding: 35px;
+    
+}
+.future{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.popular a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+}
+
+.grid2{
+    padding-top: 10px;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid2 div a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footerseclast{
+    margin-top: 20px ;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.line3{
+    padding-right: 120px;
+}
+.line3 a{
+    padding: 5px ;
+    margin: 0px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.665);
+}
+.maintop{
+    font-size: 20px ;
+}
+.last{
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.325);
+    padding: 35px;
+}
+.terms a{
+text-decoration: none;
+color: black;
+}
+.fti{
+    margin-left: 580px;
+}
+.fti a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
